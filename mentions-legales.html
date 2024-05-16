@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTalk - Mentions légales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <img src="logo.png" alt="Logo TechTalk" aria-label="Logo TechTalk">
+
+        <nav role="navigation" aria-label="Menu principal">
+            <button aria-expanded="false" aria-controls="menu-deroulant">Menu</button>
+            <ul id="menu-deroulant" aria-hidden="true">
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+                <li><a href="index.html" aria-current="page">Accueil</a></li>
+                <li><a href="categories.html">Catégories</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Fil d'Ariane" class="ariane-block">
+        <a href="index.html">Accueil</a> >
+        <a aria-current="page">Mentions légales</a>
+    </nav>
+
+    <main>
+        <article aria-labelledby="mentions-legales">
+            <h1 id="mentions-legales">Mentions légales</h1>
+
+            <h2>Informations légales</h2>
+            <p><strong>Nom de la société :</strong> TechTalk</p>
+            <p><strong>Forme juridique :</strong> [SARL, SAS, etc.]</p>
+            <p><strong>Capital social :</strong> [Montant du capital]</p>
+            <p><strong>Adresse du siège social :</strong> [Adresse complète]</p>
+            <p><strong>Numéro de téléphone :</strong> [Numéro de téléphone]</p>
+            <p><strong>Adresse email :</strong> <a href="mailto:contact@techtalk.com">contact@techtalk.com</a></p>
+            <p><strong>Directeur de la publication :</strong> [Nom du directeur de la publication]</p>
+
+            <h2>Hébergement</h2>
+            <p><strong>Nom de l'hébergeur :</strong> [Nom de l'hébergeur]</p>
+            <p><strong>Adresse de l'hébergeur :</strong> [Adresse complète de l'hébergeur]</p>
+
+            <h2>Propriété intellectuelle</h2>
+            <p>Tous les contenus présents sur ce site (textes, images, vidéos, etc.) sont la propriété de TechTalk ou de ses partenaires et sont protégés par le droit d'auteur. Toute reproduction, représentation, modification ou distribution de ces contenus est interdite sans l'autorisation préalable de TechTalk.</p>
+
+            <h2>Responsabilité</h2>
+            <p>TechTalk ne peut être tenu responsable des dommages directs ou indirects résultant de l'utilisation de ce site web ou de l'impossibilité d'y accéder. Les informations fournies sur ce site sont données à titre indicatif et ne sauraient engager la responsabilité de TechTalk.</p>
+
+            <h2>Loi applicable et juridiction compétente</h2>
+            <p>Les présentes mentions légales sont régies par la loi française. En cas de litige, les tribunaux français seront seuls compétents.</p>
+        </article>
+    </main>
+
+    <footer role="contentinfo">
+        <nav aria-label="Informations légales et accessibilité">
+            <ol>
+                <li><a href="accessibilite.html">Déclaration d'accessibilité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+            </ol>
+        </nav>
+        <p>&copy; 2024 TechTalk</p>
+    </footer>
+</body>
+</html>

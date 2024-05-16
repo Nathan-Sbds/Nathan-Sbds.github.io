@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTalk - Cloud</title>
+    <link rel="stylesheet" href="style.css"> 
+<body>
+    <header role="banner">
+        <img src="logo.png" alt="Logo TechTalk" aria-label="Logo TechTalk">
+        <nav role="navigation" aria-label="Menu principal">
+            <button aria-expanded="false" aria-controls="menu-deroulant">Menu</button>
+            <ul id="menu-deroulant" aria-hidden="true">
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="categories.html">Catégories</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Fil d'Ariane" class="ariane-block">
+        <a href="index.html">Accueil</a> >
+        <a href="categories.html">Catégories</a> >
+        <a aria-current="page">Cloud</a>
+    </nav>
+
+    <main>
+        <section aria-labelledby="cloud-computing">
+            <h1 id="cloud-computing">L'avenir du Cloud Computing</h1>
+            <p>Le cloud computing est en train de révolutionner la façon dont les entreprises et les particuliers utilisent la technologie. </p>
+            </section>
+
+        <section aria-labelledby="discussions-cloud">
+            <h1 id="discussions-cloud">Discussions sur le Cloud</h1>
+            <div class="discussions-list">
+                </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <nav aria-label="Informations légales et accessibilité">
+            <ol>
+                <li><a href="accessibilite.html">Déclaration d'accessibilité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+            </ol>
+        </nav>
+        <p>&copy; 2024 TechTalk</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTalk - Comment protéger mon réseau Wi-Fi ?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <img src="logo.png" alt="Logo TechTalk" aria-label="Logo TechTalk">
+
+        <nav role="navigation" aria-label="Menu principal">
+            <button aria-expanded="false" aria-controls="menu-deroulant">Menu</button>
+            <ul id="menu-deroulant" aria-hidden="true">
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+                <li><a href="index.html" aria-current="page">Accueil</a></li>
+                <li><a href="categories.html">Catégories</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Fil d'Ariane" class="ariane-block">
+        <a href="index.html">Accueil</a> >
+        <a href="categories.html">Catégories</a> >
+        <a href="securite.html">Securité</a> >
+        <a aria-current="page">Comment protéger mon réseau Wi-Fi ?</a>
+    </nav>
+
+    <main>
+        <section aria-labelledby="discussion-title">
+            <h1 id="discussion-title">Comment protéger mon réseau Wi-Fi ?</h1>
+        </section>
+
+        <section aria-labelledby="messages">
+            <h2 id="messages">Messages</h2>
+            <div class="message">
+                <div class="message-header">
+                    <span class="author">Utilisateur4</span> - <span class="date">8 mai 2024</span>
+                </div>
+                <div class="message-content">
+                    <p>Bonjour, j'ai récemment découvert que mon voisin était connecté à mon Wi-Fi. Comment puis-je mieux protéger mon réseau ? </p>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-header">
+                    <span class="author">SecurityExpert</span> - <span class="date">9 mai 2024</span>
+                </div>
+                <div class="message-content">
+                    <p>Salut Utilisateur4, la première chose à faire est de changer le mot de passe de ton Wi-Fi et de choisir un mot de passe fort (combinaison de lettres majuscules/minuscules, chiffres et symboles). Tu peux aussi activer le chiffrement WPA3 si ton routeur le permet, et désactiver la diffusion du SSID (le nom de ton réseau).</p>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-header">
+                    <span class="author">Utilisateur4</span> - <span class="date">10 mai 2024</span>
+                </div>
+                <div class="message-content">
+                    <p>Merci SecurityExpert, je vais appliquer tes conseils. Est-ce qu'il y a d'autres mesures que je peux prendre pour renforcer la sécurité de mon réseau ?</p>
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="repondre">
+            <h2 id="repondre">Répondre à la discussion</h2>
+            <form id="reply-form" action="#" method="post">
+                <textarea name="message" aria-label="Votre message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <nav aria-label="Informations légales et accessibilité">
+            <ol>
+                <li><a href="accessibilite.html">Déclaration d'accessibilité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+            </ol>
+        </nav>
+        <p>&copy; 2024 TechTalk</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

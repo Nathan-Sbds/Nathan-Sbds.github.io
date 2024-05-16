@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTalk - Recherche</title>
+    <link rel="stylesheet" href="style.css"> 
+<body>
+    <header role="banner">
+        <img src="logo.png" alt="Logo TechTalk" aria-label="Logo TechTalk">
+        <nav role="navigation" aria-label="Menu principal">
+            <button aria-expanded="false" aria-controls="menu-deroulant">Menu</button>
+            <ul id="menu-deroulant" aria-hidden="true">
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="categories.html">Catégories</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Fil d'Ariane" class="ariane-block">
+        <a href="index.html">Accueil</a> >
+        <a aria-current="page">Recherche</a>
+    </nav>
+
+    <main>
+        <section aria-labelledby="recherche">
+            <h1 id="recherche">Rechercher sur le forum</h1>
+            <form id="search-form" action="#" method="get">
+                <input type="search" id="search-query" name="query" placeholder="Rechercher..." aria-label="Champ de recherche">
+                <button type="submit">Rechercher</button>
+            </form>
+        </section>
+
+        <section aria-labelledby="resultats" id="search-results">
+            <h2 id="resultats">Résultats de la recherche</h2>
+            <div class="search-results-list">
+                </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <nav aria-label="Informations légales et accessibilité">
+            <ol>
+                <li><a href="accessibilite.html">Déclaration d'accessibilité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+            </ol>
+        </nav>
+        <p>&copy; 2024 TechTalk</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

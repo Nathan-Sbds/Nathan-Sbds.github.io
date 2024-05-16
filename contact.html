@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTalk - Contact</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header role="banner">
+        <img src="logo.png" alt="Logo TechTalk" aria-label="Logo TechTalk">
+        <nav role="navigation" aria-label="Menu principal">
+            <button aria-expanded="false" aria-controls="menu-deroulant">Menu</button>
+            <ul id="menu-deroulant" aria-hidden="true">
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="categories.html">Catégories</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Fil d'Ariane" class="ariane-block">
+        <a href="index.html">Accueil</a> >
+        <a aria-current="page">Contact</a>
+    </nav>
+
+    <main>
+        <section aria-labelledby="contact-form">
+            <h1 id="contact-form">Nous contacter</h1>
+            <form id="contact" action="index.html" method="get">
+                <div>
+                    <label for="nom">Nom (obligatoire):</label>
+                    <input type="text" id="nom" name="nom" required aria-required="true">
+                </div>
+                <div>
+                    <label for="prenom">Prénom (obligatoire):</label>
+                    <input type="text" id="prenom" name="prenom" required aria-required="true">
+                </div>
+                <div>
+                    <label for="email">Email (obligatoire):</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+                <fieldset>
+                    <legend>Adresse:</legend>
+                    <div>
+                        <label for="numero">Numéro:</label>
+                        <input type="text" id="numero" name="numero">
+                    </div>
+                    <div>
+                        <label for="rue">Rue:</label>
+                        <input type="text" id="rue" name="rue">
+                    </div>
+                    <div>
+                        <label for="code_postal">Code Postal:</label>
+                        <input type="text" id="code_postal" name="code_postal">
+                    </div>
+                    <div>
+                        <label for="ville">Ville:</label>
+                        <input type="text" id="ville" name="ville">
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="telephone">Téléphone:</label>
+                    <input type="tel" id="telephone" name="telephone">
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <nav aria-label="Informations légales et accessibilité">
+            <ol>
+                <li><a href="accessibilite.html">Déclaration d'accessibilité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+            </ol>
+        </nav>
+        <p>&copy; 2024 TechTalk</p>
+    </footer>
+    
+
+    <script src="script.js"></script> 
+</body>
+</html>

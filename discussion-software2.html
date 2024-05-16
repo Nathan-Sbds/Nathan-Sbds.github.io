@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTalk - Meilleur IDE pour Python ?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <img src="logo.png" alt="Logo TechTalk" aria-label="Logo TechTalk">
+
+        <nav role="navigation" aria-label="Menu principal">
+            <button aria-expanded="false" aria-controls="menu-deroulant">Menu</button>
+            <ul id="menu-deroulant" aria-hidden="true">
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+                <li><a href="index.html" aria-current="page">Accueil</a></li>
+                <li><a href="categories.html">Catégories</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Fil d'Ariane" class="ariane-block">
+        <a href="index.html">Accueil</a> >
+        <a href="categories.html">Catégories</a> >
+        <a href="software.html">Software</a> >
+        <a aria-current="page">Meilleur IDE pour Python ?</a>
+    </nav>
+
+    <main>
+        <section aria-labelledby="discussion-title">
+            <h1 id="discussion-title">Meilleur IDE pour Python ?</h1>
+        </section>
+
+        <section aria-labelledby="messages">
+            <h2 id="messages">Messages</h2>
+            <div class="message">
+                <div class="message-header">
+                    <span class="author">PythonNewbie</span> - <span class="date">10 mai 2024</span>
+                </div>
+                <div class="message-content">
+                    <p>Bonjour, je débute en Python et je cherche un bon IDE pour apprendre et développer. J'ai entendu parler de PyCharm, VS Code et Thonny. Lequel me conseillez-vous ?</p>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-header">
+                    <span class="author">CodeMaster</span> - <span class="date">11 mai 2024</span>
+                </div>
+                <div class="message-content">
+                    <p>PyCharm est excellent si tu veux un IDE complet avec beaucoup de fonctionnalités, mais il peut être un peu lourd pour un débutant. VS Code est plus léger et très personnalisable, c'est un bon choix si tu aimes bidouiller tes outils. Thonny est parfait pour les débutants, il est simple et intuitif.</p>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-header">
+                    <span class="author">Pythonista</span> - <span class="date">12 mai 2024</span>
+                </div>
+                <div class="message-content">
+                    <p>Je suis d'accord avec CodeMaster. J'ajouterais que si tu prévois de faire du développement web avec Python, VS Code est probablement le meilleur choix grâce à ses extensions pour le web.</p>
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="repondre">
+            <h2 id="repondre">Répondre à la discussion</h2>
+            <form id="reply-form" action="#" method="post">
+                <textarea name="message" aria-label="Votre message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <nav aria-label="Informations légales et accessibilité">
+            <ol>
+                <li><a href="accessibilite.html">Déclaration d'accessibilité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+            </ol>
+        </nav>
+        <p>&copy; 2024 TechTalk</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

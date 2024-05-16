@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTalk - Forum Informatique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <img src="logo.png" alt="Logo TechTalk" aria-label="Logo TechTalk">
+
+        <nav role="navigation" aria-label="Menu principal">
+            <button aria-expanded="false" aria-controls="menu-deroulant">Menu</button>
+            <ul id="menu-deroulant" aria-hidden="true">
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+                <li><a href="index.html" aria-current="page">Accueil</a></li>
+                <li><a href="categories.html">Catégories</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Fil d'Ariane" class="ariane-block">
+        <a aria-current="page">Accueil</a>
+    </nav>
+
+    <main>
+        <section aria-labelledby="theme-principal">
+            <h1 id="theme-principal">Thème du mois : L'impact de l'IA sur la cybersécurité</h1>
+            
+            <p>Découvrez comment l'intelligence artificielle transforme la cybersécurité, à la fois en défense et en attaque.</p>
+            <a href="ia-cybersecurite.html" style="font-weight: bold; color:#0060c7">En savoir plus</a>
+        </section>
+
+        <section aria-labelledby="discussions-recentes">
+            <h2 id="discussions-recentes">Discussions récentes</h2>
+            <div class="discussions-list">
+                <div class="discussion-item">
+                    <h3><a href="discussion-hardware1.html">Quel processeur choisir pour du gaming ?</a></h3>
+                    <p>Conseils pour choisir le meilleur processeur pour votre budget et vos besoins en gaming.</p>
+                </div>
+                <div class="discussion-item">
+                    <h3><a href="discussion-software1.html">Windows 11 : vos avis et retours d'expérience</a></h3>
+                    <p>Partagez vos impressions sur le nouveau système d'exploitation de Microsoft.</p>
+                </div>
+                <div class="discussion-item">
+                    <h3><a href="discussion-securite2.html">Phishing : comment le reconnaître et l'éviter ?</a></h3>
+                    <p>Informations sur les techniques de phishing et comment s'en protéger.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <nav aria-label="Informations légales et accessibilité">
+            <ol style="position: relative;">
+                <li><a href="accessibilite.html">Déclaration d'accessibilité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+            </ol>
+        </nav>
+        <p>&copy; 2024 TechTalk</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

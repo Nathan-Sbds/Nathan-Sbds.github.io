@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTalk - Windows 11 : vos avis et retours d'expérience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <img src="logo.png" alt="Logo TechTalk" aria-label="Logo TechTalk">
+
+        <nav role="navigation" aria-label="Menu principal">
+            <button aria-expanded="false" aria-controls="menu-deroulant">Menu</button>
+            <ul id="menu-deroulant" aria-hidden="true">
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+                <li><a href="index.html" aria-current="page">Accueil</a></li>
+                <li><a href="categories.html">Catégories</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="close-menu" aria-label="Fermer le menu">Fermer</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Fil d'Ariane" class="ariane-block">
+        <a href="index.html">Accueil</a> >
+        <a href="categories.html">Catégories</a> >
+        <a href="software.html">Software</a> >
+        <a aria-current="page">Windows 11 : vos avis et retours d'expérience</a>
+    </nav>
+
+    <main>
+        <section aria-labelledby="discussion-title">
+            <h1 id="discussion-title">Windows 11 : vos avis et retours d'expérience</h1>
+        </section>
+
+        <section aria-labelledby="messages">
+            <h2 id="messages">Messages</h2>
+            <div class="message">
+                <div class="message-header">
+                    <span class="author">Utilisateur2</span> - <span class="date">12 mai 2024</span>
+                </div>
+                <div class="message-content">
+                    <p>Salut à tous, je viens de passer à Windows 11 et j'aimerais avoir vos retours. Qu'est-ce que vous en pensez ? Est-ce que ça vaut le coup de migrer depuis Windows 10 ?</p>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-header">
+                    <span class="author">WindowsFan</span> - <span class="date">13 mai 2024</span>
+                </div>
+                <div class="message-content">
+                    <p>Personnellement, j'adore Windows 11 ! L'interface est plus moderne, les performances sont améliorées et il y a plein de nouvelles fonctionnalités intéressantes. Je te recommande vivement de faire la mise à jour.</p>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-header">
+                    <span class="author">Utilisateur3</span> - <span class="date">14 mai 2024</span>
+                </div>
+                <div class="message-content">
+                    <p>Je suis un peu plus mitigé. C'est vrai que l'interface est jolie, mais je trouve que certaines choses sont moins pratiques que sur Windows 10. J'ai aussi eu quelques bugs au début. Je pense qu'il faut attendre un peu que le système soit plus mature.</p>
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="repondre">
+            <h2 id="repondre">Répondre à la discussion</h2>
+            <form id="reply-form" action="#" method="post">
+                <textarea name="message" aria-label="Votre message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <nav aria-label="Informations légales et accessibilité">
+            <ol>
+                <li><a href="accessibilite.html">Déclaration d'accessibilité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+            </ol>
+        </nav>
+        <p>&copy; 2024 TechTalk</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
